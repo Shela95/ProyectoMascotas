@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Proyecto Mascotas</title>
+
+	    <link href ="styles.css" rel ="stylesheet" />
+	    <link href ="mascota.css" rel ="stylesheet" /> 
+	    <link href ="mascotas.css" rel ="stylesheet" />
+	    <link href ="normalize.css" rel ="stylesheet" /> 
+	    <link href ="mascota_imagen.css" rel ="stylesheet" />
+   
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&
+                display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <header>
+        
+
+    </header>
+   <section class mascotas>
+	<div class="mascota">
+           <img  class ="mascota_imagen" alt= "mascotas"  src="O:/My Drive/shela/MascotasM/comida3.JPG"/>
+	   <div clas ="mascota_contenido"> </div>
+	        <!-- <h2 class ="mascota_titulo">Mascotas & Comidas</h2>-->
+	      <p class ="mascota_descripcion">Aquí encontrarás también comida vegetariana para tus mascotas </p>
+    	   </div>
+        </div>	
+	<div class="mascota">
+           <img  class ="mascota_imagen" alt= "mascotas"  src="O:/My Drive/shela/MascotasM/perroygato.JPG"/>
+	   <div clas ="mascota_contenido"> </div>
+          <!--     <h2 class ="mascota_titulo">Mascotas & Comidas</h2> -->
+	      <p class ="mascota_descripcion">Podras adortar, dar en adopción, reportar la pérdida de tu mascota </p>
+           </div>
+         </div>
+       </section>
+        <form action = "" method="POST" id = form>
+            <div class = "form">
+                <h3 class="registro">Registrarse</h3>
+                <div class ="grupo">
+                    <div class="grupo">
+                        <input class="datosregistro" type="text" name="" id="usuario"> <span class="barra"></span>
+                        <label for="">Nombre Usuario</label>
+                    </div>
+                    <div class="grupo">
+                     <input class="datosregistro" type ="text" name=""  id ="name"> <span class="barra"></span>
+                     <label for ="" >Nombre</label>
+                   </div>
+                <div class="grupo">
+
+                    <input class="datosregistro" type="text" name="" id="apellido"> <span class="barra"></span>
+                    <label for="">apellido</label>
+                </div>
+
+                <div class="grupo">
+                    <input class="datosregistro" type="email" name="" id="email"> <span class="barra"></span>
+                    <label for="">email</label>
+                </div>
+                <div class="grupo">
+                    <input class="datosregistro" type="number" name="" id="celular"> <span class="barra"></span>
+                    <label for="">celular</label>
+                </div>
+                <div class="grupo">
+                    <input class="datosregistro" type="password" name="" id="password"> <span class="barra"></span>
+                    <label for="">password</label>
+                </div>
+                <div class="grupo">
+                    <input class="datosregistro" type="password" name="" id="password2"> <span class="barra"></span>
+                    <label for="">Confirmación de password</label>
+                </div>
+                <button type="submit">Guardar</button>
+                <p class="warnings" id ="warnings"></p>
+                <button type="submit">Cancelar</button>
+                <p class="warnings" id ="warnings"></p>
+
+            </div>
+
+        </form>
+      <!--  <div id="msg"></div>-->
+        
+       <!-- Mensajes de Verificación -->
+     <!--   <div id="error" class="alert alert-danger ocultar" role="alert">
+            Las Contraseñas no coinciden, vuelve a intentar !
+        </div>
+        <div id="ok" class="alert alert-success ocultar" role="alert">
+            Las Contraseñas coinciden ! (Procesando formulario ... ) 
+        </div>-->
+        <!-- Fin Mensajes de Verificación -->  
+
+             <script src = "mascotas.js" ></script>
+    </body>
+</html>

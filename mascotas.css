@@ -1,0 +1,26 @@
+.mascotas {  /* vista general de recetas */
+    background: #dab997;
+    display: flex;
+    flex-wrap: wrap; /* distribucion de las descripciones */
+
+    width: calc(25%-5rem);
+
+}
+
+ @media screen and (min-width: 0) {
+	.mascotas{
+    padding: 5rem 0 0 1rem; 
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.mascotas{
+    padding: 5rem 0 0 2.5rem; 
+	}
+}
+
+@media screen and (min-width: 992x) {
+	.mascotas{
+    padding: 5rem 0 0 5rem; 
+	}
+} 
